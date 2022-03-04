@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="7dp"
+    tools:context=".DeveloperActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developer Information"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/tinos"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আসসালামুআলাইকুম,আমি মোঃ যোবায়ের হাসান নাঈম। আমি বর্তমানে কম্পিউটার সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং বিভাগে পড়াশুনা করছি বাংলাদেশ ইউনিভার্সিটি অফ বিজনেস অ্যান্ড টেকনোলজিতে, এবং পাশাপাশি অ্যাপ ডেভেলপমেন্ট সেক্টরে কাজ করছি। আমার একটি আইটি ফার্ম ও রয়েছে যেটার নাম Trodev। এই অ্যাপ চালানর সময়ে কোন রকম সমস্যার সম্মুখীন হলে আমাকে কল বা ইমেইল করে জানাতে পারবেন। ধন্যবাদ।"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/kalpurush"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact-Info:"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/tinos"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autoLink="email"
+                android:text="Email: zobayer.dev@gmail.com"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textIsSelectable="true"
+                android:textSize="19sp"
+                android:fontFamily="@font/tinos"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:autoLink="phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile: +8801615257555\n             +8801925671797"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/tinos"
+                android:textIsSelectable="true"
+                />
+
+
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Website: www.trodev.com"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/tinos"
+                android:textIsSelectable="true"
+                />
+
+
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portfolio: zobayer.trodev.com"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/tinos"
+                android:textIsSelectable="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2022 copyright all reserved by Trodev"
+                android:textSize="15sp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/tinos"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

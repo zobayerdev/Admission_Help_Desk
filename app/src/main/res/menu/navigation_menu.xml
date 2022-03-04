@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Admission Notice PDF"
+        android:id="@+id/nav_admisison_notice"
+        android:icon="@drawable/ic_pdf"/>
+    <item
+        android:title="Request Developer"
+        android:id="@+id/nav_req_dev"
+        android:icon="@drawable/ic_request_admin"/>
+    <item
+        android:title="Developer Contact"
+        android:id="@+id/nav_dev"
+        android:icon="@drawable/ic_dev"/>
+    <item
+        android:title="Privacy policy"
+        android:id="@+id/nav_policy"
+        android:icon="@drawable/ic_privacy"/>
+    <item
+        android:title="Share app"
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share"/>
+    <item
+        android:title="Rate us"
+        android:id="@+id/nav_rate"
+        android:icon="@drawable/ic_rate"/>
+
+</menu>

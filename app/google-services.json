@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "189574590944",
+    "project_id": "admission-help-desk",
+    "storage_bucket": "admission-help-desk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189574590944:android:d0dce26f37d12b84e13b85",
+        "android_client_info": {
+          "package_name": "com.trodev.admissionhelpdesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189574590944-2dr4a62f3fl5edgdc309v40v6nf80bhu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trodev.admissionhelpdesk",
+            "certificate_hash": "5a5404dde3353cfbdd0b0a1161507b23f9b52a29"
+          }
+        },
+        {
+          "client_id": "189574590944-0o9uk3kulthloubajd5c4eb7o7elvhj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTYrdjNzm8X4NfLkomf_95I_pRFQkLc6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189574590944-0o9uk3kulthloubajd5c4eb7o7elvhj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Admission Help Desk</string>
+    <string name="start">Open</string>
+    <string name="close">Close</string>
+</resources>

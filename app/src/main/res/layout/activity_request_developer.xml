@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RequestDeveloperActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/kalpurush"
+                android:text="আপনার মতামত আশা করছি,\nএই অ্যাপ ব্যবহার করার সময় আপনার কোন অভিযোগ \n অথবা আপডেট দেওয়ার থাকলে সরাসরি আমাদের লিখুন।"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                />
+
+
+            <EditText
+                android:id="@+id/mobile_ET"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:background="@drawable/custom_input"
+                android:hint="আপনার মোবাইল নম্বর লিখুন"
+                android:fontFamily="@font/tinos"
+                android:inputType="text"
+                android:textSize="14sp"
+                android:drawableStart="@drawable/ic_mobile"
+                android:drawablePadding="12dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                />
+
+            <EditText
+                android:id="@+id/text_ET"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:background="@drawable/custom_input"
+                android:hint="আপনার মতামত লিখুন"
+                android:fontFamily="@font/tinos"
+                android:inputType="text"
+                android:textSize="14sp"
+                android:drawablePadding="12dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:gravity="top"
+                android:padding="10dp"
+                />
+
+            <Button
+                android:id="@+id/submit_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit feedback"
+                android:textAllCaps="false"
+                android:fontFamily="@font/tinos"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
