@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         getSupportActionBar().setTitle("Dashboard");
 
         FirebaseMessaging.getInstance().subscribeToTopic("notification");
@@ -133,18 +134,18 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId()){
             case R.id.nav_admisison_notice:
-                Toast.makeText(this, "অ্যাডমিশন নোটিশ!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "শীগ্রহী আসবে", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_req_dev:
-                startActivity(new Intent(MainActivity.this,RequestDeveloperActivity.class));
-                Toast.makeText(this, "আপনার মতামত লিখুন!", Toast.LENGTH_SHORT).show();
+                // startActivity(new Intent(MainActivity.this,RequestDeveloperActivity.class));
+                Toast.makeText(this, "শীগ্রহী আসবে", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_dev:
                 startActivity(new Intent(MainActivity.this,DeveloperActivity.class));
                 Toast.makeText(this, "ডেভেলপার পরিচয়!", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_policy:
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://admissionhelpdesk.trodev.com/")));
+                startActivity(new Intent(MainActivity.this,Policy.class));
                 Toast.makeText(this, "প্রাইভেসি পলিসি!", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_share:

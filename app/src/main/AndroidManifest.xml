@@ -15,9 +15,13 @@
         android:theme="@style/Theme.AdmissionHelpDesk"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".Policy"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".DeveloperActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".university.JahangirActivity"
             android:exported="false"
@@ -43,10 +47,6 @@
             android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".RequestDeveloperActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".university.GucchoActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
@@ -64,7 +64,7 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
